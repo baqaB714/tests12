@@ -1,0 +1,36 @@
+/* *{
+    color: red;
+    padding: 0;
+    margin: 0;
+    background-color: blue !important;
+} */
+
+li{
+    width: 500px;
+    height: 30px;
+    background-color: aqua !important;
+    list-style-type:decimal ;
+    margin-top: 5px;
+    text-align: center;
+    transition: all 1000ms;
+}
+li:hover{
+    transform: scale(1.3);
+    box-shadow: 0 0 10px black;
+}
+
+ul{
+    direction: rtl;
+}
+
+span{
+    width: 70px;
+    height: 100%;
+    background-color: blueviolet;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media (min-width : 1028px) , (min-width : 1028px) {
+    
+}
